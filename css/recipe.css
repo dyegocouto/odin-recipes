@@ -55,8 +55,7 @@ a {
 }
 
 .wrapper {
-  width: 50%;
-  max-width: 25rem;
+  width: clamp(400px, 60%, 700px);
   margin: 20px 0;
   background-color: hsl(0, 0%, 98%);
   border: 0.375rem double black;
@@ -70,7 +69,7 @@ a {
 }
 
 .recipe__image {
-  max-width: 65%;
+  max-width: 60%;
   border-radius: 0.3125rem;
   border: 1px solid black;
 }
