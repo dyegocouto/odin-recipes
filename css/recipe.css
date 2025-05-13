@@ -58,7 +58,7 @@ a {
 }
 
 .wrapper {
-  width: clamp(400px, 60%, 700px);
+  width: clamp(350px, 50%, 400px);
   margin: 20px 0;
   background-color: hsl(0, 0%, 98%);
   border: 0.375rem double black;

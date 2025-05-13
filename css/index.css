@@ -3,7 +3,6 @@
 :root {
   --heading-font: "Montserrat", sans-serif;
   --main-font: "Poppins", sans-serif;
-  --font-size-normal: clamp(11px, 2rem, 15px);
 }
 
 html,
@@ -30,12 +29,11 @@ body {
 p {
   color: #333;
   font-family: var(--main-font);
-  font-size: var(--font-size-normal);
 }
 
 li {
   font-family: var(--main-font);
-  font-size: var(--font-size-normal);
+  font-size: 0.95rem;
 }
 
 a {
@@ -49,8 +47,7 @@ a:visited {
 
 .wrapper {
   background-color: hsl(0, 0%, 98%);
-  width: 50%;
-  max-width: 25rem;
+  width: clamp(350px, 50%, 400px);
   border: 0.375rem double black;
   padding: 1.25rem;
   border-radius: 0.3125rem;
