@@ -3,6 +3,7 @@
 :root {
   --heading-font: "Montserrat", sans-serif;
   --main-font: "Poppins", sans-serif;
+  --font-size-normal: clamp(11px, 2rem, 15px);
 }
 
 html,
@@ -31,11 +32,13 @@ body {
 
 p {
   font-family: var(--main-font);
+  font-size: var(--font-size-normal);
   color: #333;
 }
 
 li {
   font-family: var(--main-font);
+  font-size: var(--font-size-normal);
 }
 
 a {
